@@ -1,0 +1,30 @@
+*{
+    background-color: antiquewhite;
+}
+label, select{
+    margin-top: 10px;
+    font-size: larger;
+}
+input, option{
+    margin-top: 10px;
+    padding: 5px;
+    border-color: black;
+}
+h1{
+    color:crimson;
+    text-align: center;
+}
+.contactForm{
+    border: 2px solid blueviolet;
+    text-align: center;
+}
+button{
+    font-size: 15px;
+    color: white;
+    background-color: olivedrab;
+    border-style: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+

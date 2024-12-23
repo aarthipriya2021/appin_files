@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide Down Alert</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    #alertBox {
+      display: none;
+      margin: 20px auto;
+      padding: 10px;
+      /* width: 300px; */
+      background-color: #f8d7da;
+      /* color: #721c24; */
+      border: 1px solid #f5c6cb;
+      border-radius: 5px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <p id="showAlert">Show Alert</p>
+  <div id="alertBox">This is an alert message!</div>
+
+  <script>
+    $(document).ready(function () {
+      $("#showAlert").click(function () {
+        $("#alertBox").slideDown("slow");
+      });
+    });
+  </script>
+
+</body>
+</html>

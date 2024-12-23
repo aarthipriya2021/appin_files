@@ -1,0 +1,8 @@
+*{
+    text-align: center;
+}
+.text01{
+    transform: rotate(-90deg);
+    margin: 100px;
+    letter-spacing: 8px;
+}

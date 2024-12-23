@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(11, 2, 2);
+}
+input[type="text"] {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 5px 5px;
+}
+.search-wrapper{
+    position: relative;
+}
+.search-wrapper img{
+    position: absolute;
+    top: 6px;
+    left: 150px;
+    width: 15px;
+    height: 15px;
+}
+input:focus{
+    outline: none;
+}
+
+
+li{
+    color: gray;
+    font-size: 15px;
+    list-style-type: none;
+}
+li:active{
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vowels count</title>
+  </head>
+  <body>
+    <h1 id="count"></h1>
+    <h1 id="wordCount"></h1>
+    <script>
+      // task 01 - no.of vowels in word
+      let word = "Laptop";
+      let vowels = ["a", "e", "i", "o", "u"];
+      let count = 0;
+
+      for (let i = 0; i < word.length; i++) {
+        if (vowels.includes(word[i])) {
+          count++;
+        }
+      }
+      document.getElementById("count").textContent = `Number of Vowels in word: ${count}`;
+
+      //   task 02 : words in para
+
+
+      let repeatWord = "sun"; // Word to count
+      let para =
+        "The sun was shining brightly, and the bright sun made the day feel warm and cheerful. Children played under the bright sun, enjoying the warmth of the sun. The trees swayed gently in the breeze, their leaves shimmering under the sunlight. Everyone seemed to love the sun, as the sun brought life, energy, and brightness to everything around. Without the sun, the world would feel dull, but with the sun, everything felt alive and vibrant.";
+
+      // Convert paragraph to lowercase and split into words
+      let words = para.toLowerCase().split(/\W+/); // Splits into words ignoring punctuation
+
+      let countOfWord = 0;
+
+      // Count occurrences of the specific word
+      for (let word of words) {
+        if (word === repeatWord.toLowerCase()) {
+          countOfWord++;
+        }
+      }
+
+      // Display the result
+      document.getElementById(
+        "wordCount"
+      ).textContent = `No of word "${repeatWord}" appears times in the paragraph: ${countOfWord}`;
+    </script>
+  </body>
+</html>

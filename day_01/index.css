@@ -1,0 +1,18 @@
+*{
+    background-color:darkkhaki;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+
+}
+img{
+    width: 370px;
+    height: 350px;
+}
+.firstImg{
+    margin: 20px;
+    border-radius: 10px;
+}

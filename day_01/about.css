@@ -1,0 +1,21 @@
+*{
+    background-color: lightcyan;
+}
+
+h1{
+    color: brown;
+    text-align: center;
+}
+a{
+    /* list-style-type: none; */
+    text-decoration: none;
+}
+
+table, th, td{
+    border: 1px solid royalblue;
+    border-collapse: collapse;
+    padding: 15px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}

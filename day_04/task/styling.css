@@ -1,0 +1,98 @@
+* {
+  background-color: black;
+  color: aliceblue;
+  /* font-size: 20px; */
+  margin: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* list style image */
+.style_1 li#html {
+  background: url("../assets/html.png") no-repeat;
+  padding-left: 30px;
+}
+.style_1 li#css {
+  background: url("../assets/css.png") no-repeat;
+  padding-left: 30px;
+}
+.style_1 li#js {
+  background: url("../assets/js.png") no-repeat;
+  padding-left: 30px;
+}
+.style_1 li#react {
+  background: url("../assets/react.png") no-repeat;
+  padding-left: 30px;
+}
+#htmlHover:hover {
+  background-color: rgb(187, 149, 222);
+  color: black;
+}
+#cssVisited:visited {
+  color: gray;
+}
+#jsActivated:active {
+  color: cyan;
+}
+#reactFocus:focus {
+  color: cornflowerblue;
+}
+
+#htmlBig:hover{
+    box-shadow: 10px 5px 10px 10px blue;
+    cursor: pointer;
+}
+.form{
+    float: right;
+    height: 400px;
+    border: 1px solid greenyellow;
+    border-radius: 2px;
+    background-color: beige;
+}
+.form input{
+    border-radius: 4px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 10px 10px;
+    width: 260px;
+}
+
+#floatRight{
+    float: right;
+    margin-top: -60px;
+}
+#floatLeft{
+    float: left;
+}
+.FloatText{
+    height: 400px;
+}
+.selectInput{
+    font-size: 15px;
+    width: 258px;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: brown;
+    color:beige;
+    font-size: 15px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+.imageCenter{
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+}
+h1{
+    color: white;
+}
+.top{
+    background-image: linear-gradient(#13C25B, #15A3B7);
+    padding: 10px 10px;
+}
+img{
+    width: 150px;
+    height: 110px;
+    border-radius: 2px;
+}
+.images{
+    width: 650px;
+    margin: auto;
+}
+.bottomImages{
+    min-width: 100%;
+}
+.bottomImages img{
+    margin: auto;
+    width: 260px;
+    height: 170px;
+    border-radius: 2px;
+}

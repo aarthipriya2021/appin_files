@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./registration_form.css" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <p class="h1tag" style="font-weight: bolder;">
+        <span style="color: burlywood">Re</span
+        ><span style="color: darkgray">gi</span
+        ><span style="color: darkgray">ster</span>
+        <span style="color: honeydew">He</span
+        ><span style="color: lightpink">re!</span>
+        </p>
+      <video width="1000" height="400" autoplay muted>
+        <source src="./assets/video.mp4" type="video/mp4" /></video
+      ><br />
+      <!-- <label for="name">Name</label> -->
+      <input
+        type="text"
+        value=""
+        name="name"
+        size="65"
+        placeholder="Enter your Name"
+      />
+      <br />
+      <!-- <label for="mob_num">Mobile Number:</label> -->
+      <input
+        type="number"
+        size="80"
+        value=""
+        name="mob_num"
+        class="mob_num"
+        placeholder="Enter your Mobile number"
+      />
+      <br />
+      <label for="course">Course:</label>
+      <select name="Course">
+        <option>Frontend</option>
+        <option>Backend</option>
+        <option>Fullstack</option>
+      </select>
+      <br />
+      <h4>Please Select tech languages</h4>
+      <input type="checkbox" name="html" class="checkboxes" />
+      <label for="html">HTML</label><br />
+      <input type="checkbox" name="css" class="checkboxes" />
+      <label for="css">CSS</label><br />
+      <input type="checkbox" name="js" class="checkboxes" />
+      <label for="js">JS</label><br />
+      <input type="checkbox" name="react" class="checkboxes" />
+      <label for="react">React</label><br />
+      <input type="checkbox" name="bootstrap" class="checkboxes" />
+      <label for="bootstrap">Bootstrap</label><br />
+      <h4>Please upload your resume:</h4>
+      <input type="file" name="file" />
+      <br />
+
+      <button class="btn">Submit</button>
+      <!-- <audio width="400" height="200" controls>
+        <source src="./assets/flowers.mp3" type="audio/mp3" />
+      </audio> -->
+
+      <!-- <iframe
+        width="1000"
+        height="400"
+        src="https://www.youtube.com/embed/g1J4181W8ss?si=ZRl804k-bK0KXy27?autoplay=1&muted=1"
+        
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe> -->
+    </div>
+  </body>
+</html>

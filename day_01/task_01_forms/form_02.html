@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./form_02.css" />
+    <title>HTML | Form 02</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="innerDiv">
+        <div class="top">
+          <h1>Client Information</h1>
+          <h2>Manicure & Pedicure Salon</h2>
+          <label htmlFor="name">Full Name</label>
+          <input type="text" value="" />
+          <label htmlFor="date">Date</label>
+          <input type="date" value="" /><br /><br />
+          <label htmlFor="address">Address</label>
+          <input type="text" value="" />
+          <label htmlFor="phone">Contact Phone</label>
+          <input type="number" value="" /><br /><br />
+          <label htmlFor="email">Email Address</label>
+          <input type="email" value="" />
+          <!-- <span class="horizontal"></span> -->
+        </div>
+        <div>
+          <table>
+            <td>Is this your first manicure or pedicure?</td>
+            <td>yes</td>
+            <td>no</td>
+          </table>
+          <table>
+            <td>
+              Have you ever experienced allergic reaction or irriatation from
+              any type of nail or skin product?<small
+                >if yes, please specify
+                _____________________________________</small
+              >
+            </td>
+            <!-- <small>if yes, please specify _____________________________________</small> -->
+            <td>yes</td>
+            <td>no</td>
+          </table>
+          <table>
+            <td>
+              Do you take part in any hands-on hobbies or sports activities?
+            </td>
+            <!-- <small>if yes, please specify _____________________________________</small> -->
+            <td>yes</td>
+            <td>no</td>
+          </table>
+        </div>
+        <div class="checkboxDiv">
+          <h3>Please check any of the following medical or skin condition</h3>
+          <div class="styledBox">
+            <input type="checkbox" value="allergies" id="Allergy" />
+            <label for="allergy">Allergies</label><br />
+            <input type="checkbox" value="diabetes" name="Diabetes" />
+            <label for="diabetes">Diabetes</label><br />
+            <input
+              type="checkbox"
+              value="skin Irritation"
+              name="Skin Irritation"
+            />
+            <label for="Skin Irritation">Skin Irritation</label><br />
+            <input
+              type="checkbox"
+              value="skin inflammation"
+              name="Skin Inflammation"
+            />
+            <label for="Skin Inflammation">Skin Inflammation</label><br />
+            <input type="checkbox" value="arthritis" name="Arthritis" />
+            <label for="Arthritis">Arthritis</label><br />
+          </div>
+          <div class="styledBox">
+            <input
+              type="checkbox"
+              value="blood born Disease"
+              name="Blood Born Disease"
+            />
+            <label for="Blood Born Disease">Blood Born Disease</label><br />
+            <input type="checkbox" value="broken skin" name="Broken Skin" />
+            <label for="Broken Skin">Broken Skin</label><br />
+            <input type="checkbox" value="hemophilia" name="Hemophilia" />
+            <label for="Hemophilia">Hemophilia</label><br />
+            <input
+              type="checkbox"
+              value="recent Surgery"
+              name="Recent Surgery"
+            />
+            <label for="Recent Surgery">Recent Surgery</label><br />
+            <input type="checkbox" value="swelling" name="Swelling" />
+            <label for="Swelling">Swelling</label><br />
+          </div>
+          <div class="styledBox">
+            <input
+              type="checkbox"
+              value="atheletes foot"
+              name="Atheletes Foot"
+            />
+            <label for="Atheletes Foot">Atheletes Foot</label><br />
+            <input type="checkbox" value="calluses" name="Calluses" />
+            <label for="Calluses">Calluses</label><br />
+            <input
+              type="checkbox"
+              value="nail infection"
+              name="Nail Infection"
+            />
+            <label for="Nail Infection">Nail Infection</label><br />
+            <input type="checkbox" value="Corns" name="Corns" />
+            <label for="Corns">Corns</label><br />
+          </div>
+        </div>
+        <div>
+          <h3>How would you describe the typical condition of your nail</h3>
+          <div class="styledBox">
+            <input type="checkbox" value="soft" name="soft" />
+            <label for="Soft">Soft</label><br />
+            <input type="checkbox" value="hard" name="Hard" />
+            <label for="Hard">Hard</label><br />
+            <input type="checkbox" value="bendy" name="Bendy" />
+            <label for="Bendy">Bendy</label><br />
+          </div>
+          <div class="styledBox">
+            <input type="checkbox" value="brittle" name="Brittle" />
+            <label for="Brittle">Brittle</label><br />
+            <input type="checkbox" value="flaky" name="" />
+            <label for="Flaky">Flaky</label><br />
+            <input type="checkbox" value="snap easily" name="Snap easily" />
+            <label for="Snap easily">Snap easily</label><br />
+          </div>
+          <div class="styledBox">
+            <input type="checkbox" value="split easily" name="Split easily" />
+            <label for="Split easily">Split easily</label><br />
+            <input type="checkbox" value="normal" name="Normal" />
+            <label for="Normal">Normal</label><br />
+          </div>
+        </div>
+        <div>
+          <h4>
+            **I declare that I have read this consultation form thoroughly and i
+            can understand every question asked . I beleive that I have no
+            medical condition that may affect the treatment . All of the given
+            answer is correct and true to the best of my knowledge.
+          </h4>
+          <div>
+            <input type="text" value="" />
+            <label htmlFor="name">Client's Signature</label>
+            <input type="text" value="" />
+            <label htmlFor="name">Attendant's Signature</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

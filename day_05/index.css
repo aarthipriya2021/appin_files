@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #020a12; */
+  font-family: Arial, Helvetica, sans-serif;
+  /* text-transform: capitalize; */
+  color: white;
+}
+.container {
+  background-color: black;
+}
+
+img {
+  width: 100px;
+  height: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-top: 2px solid red;
+  border-bottom: 3px solid red;
+}
+
+.menu {
+  float: right;
+}
+/* Menu styles */
+.menu {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu ul li {
+  margin: 10px 15px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.menu ul li a:hover {
+  background-color: black;
+  text-shadow: white;
+  box-shadow: white;
+  cursor: pointer;
+}
+.listItem {
+  margin-top: 5px;
+  background-color: black;
+  box-shadow: white;
+  cursor: pointer;
+}
+
+.listItem:hover{
+  box-shadow: rgb(255, 255, 255) 1px 1px 40px;
+  padding: 3px 3px;
+  cursor: pointer;
+}
+.search-wrapper {
+  position: relative;
+}
+.search-wrapper img {
+  position: absolute;
+  /* top: 8px; */
+  left: 150px;
+  width: 22px;
+  height: 20px;
+  color: darkgrey;
+  background-color: white;
+}
+input {
+  padding: 10px 10px;
+  border-radius: 15px;
+  border: 1px solid white;
+  background-color: white;
+  margin-top: -8px;
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
+.hero {
+  background-image: url("./assets/hero.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 380px;
+}
+.hero h1 {
+  font-size: 60px;
+  font-weight: bolder !important;
+  margin-bottom: 30px;
+}
+.hero h2 {
+  background-color: red;
+  padding: 5px 5px;
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+}
+.hero h3 {
+  margin: 20px 20px;
+}
+.hero p {
+  margin-bottom: 30px;
+  line-height: 30px;
+  width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+.hero button {
+  margin-top: 30px;
+  color: red;
+  padding: 10px 15px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid red;
+}
+.about {
+  display: flex;
+  margin: 0 auto;
+  height: 200px;
+  background-color: #ffffff;
+  color: black;
+}
+.about img {
+  border-radius: 50%;
+  background-color: red;
+    display: inline-block;
+    height:100px;
+    width: 90px;
+    margin: 0 auto;
+    vertical-align: middle;
+    margin: 10px 20px;
+}
+.about > div {
+  display: block;
+  margin: 0 auto;
+  color: black;
+}
+.about > div h3{
+  display: block;
+  margin: 0 auto;
+  color: black;
+  margin-bottom: 10px;
+}
+.about > div p {
+  width: 150px;
+  color: black;
+}

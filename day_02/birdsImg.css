@@ -1,0 +1,22 @@
+*{
+    background-color: rgb(178, 93, 93);
+    text-align: center;
+    color: aliceblue;
+}
+img{
+    width: 400px;
+    height: 300px;
+    padding: 10px 10px;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    text-align: center;
+}
+
+audio{
+    padding: 10px 10px;
+}

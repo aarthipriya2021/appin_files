@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+aside {
+  min-width: 250px;
+}
+
+.card {
+  width: 250px;
+}
+
+footer p {
+  font-size: 0.8em;
+}
+.card {
+  background-color: transparent;
+  color: white;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.btn-outline-light {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: #1c1c1c;
+}
+.readMoreBtn {
+  background-color: transparent;
+  color: #a83a34;
+  border: 2px solid #a83a34;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.readMoreBtn:hover{
+    background-color: #a83a34;
+      color: white;
+}
+#about, #skills, #work, #contact{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(./assets/bg.jpg);
+  color: white;
+}
